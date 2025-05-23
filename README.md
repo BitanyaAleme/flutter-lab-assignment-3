@@ -1,16 +1,29 @@
-# lab3
+# Flutter Albums App
 
-A new Flutter project.
+A Flutter application that fetches albums and photos from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com), using **Bloc** for state management and **GoRouter** for navigation. Built with **MVVM architecture**.
 
-## Getting Started
+# Features
 
-This project is a starting point for a Flutter application.
+- Fetch and display albums with thumbnail previews
+- View detailed album screen with grid of photos
+- Smooth scroll and "Back to Top" button
+- Responsive grid layout for albums and photos
+- Error handling and retry option
 
-A few resources to get you started if this is your first Flutter project:
+# Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**
+- **Bloc (flutter_bloc)**
+- **GoRouter**
+- **MVVM architecture**
+- **JSONPlaceholder API**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Android Studio or VS Code
+- Internet connection (to fetch data from API)
+
+
